@@ -1,6 +1,5 @@
 from gpiozero import MotionSensor
 import RPi.GPIO as GPIO
-import time
 from email.message import EmailMessage
 import ssl
 import smtplib

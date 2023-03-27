@@ -25,11 +25,6 @@ em.set_content(body)
 
 context = ssl.create_default_context()
 
-
-# Wait for the PIR sensor to settle
-print("PIR sensor warming up...")
-print("PIR sensor ready")
-
 openMailBox = False
 
 # Main loop
